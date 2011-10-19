@@ -1,0 +1,123 @@
+/*******Menor a 980px******/
+@media screen and (max-width: 980px){
+
+	body{
+		width: 80%;
+	}
+	
+	nav ul{
+		width: 70%;
+	}
+	
+	nav ul li a {
+		margin-right: 15px;
+		line-height: 30px;
+		/*padding: 10px 8px;*/
+	}
+
+	#content{
+		width: 90%;
+		padding: 3% 4%;
+		background: red;
+	}	
+
+	#intro{
+		width: 80%;
+		height: auto;
+		background: blue;
+	}
+	
+	#mainContent{
+		width: 80%;
+		padding: 3% 4%;
+	}
+	
+	aside{
+		width: 30%;
+		background: yellow;
+	}	
+}
+
+/*******Menor a 650px******/
+@media screen and (max-width: 650px) {
+
+	#header {
+		height: auto;
+	}
+	
+	nav{
+		background: purple;
+	}
+	
+	ul{
+		position: static;
+	}
+	
+	nav ul{
+		width: 40%;
+	}
+	
+	nav ul li a {
+		width: 20%;
+		font-size: 80%;
+		margin-right: 15px;
+		line-height: 22px;
+		/*padding: 10px 8px;*/
+	}
+	
+	#intro{
+		width: auto;
+		height: 20%;
+		background: orange;
+		font-size: 80%;
+	}
+	
+	#intro h2 {
+		padding: 0 0 22px 0;
+		font-weight: normal;
+		color: #000;
+		font-size: 80%;
+	}
+	
+	#mainContent{
+		width: auto;
+		float: none;
+		margin: 20px 0;
+	}
+	
+	aside{
+		width: 100%;
+		margin: 0;
+		float: none;
+	}
+}
+
+/*******Menor a 480px******/
+
+@media screen and (max-width: 480px) {
+	html {
+		-webkit-text-size-adjust: none;
+	}
+	
+	nav{
+		background: grey;
+	}
+	
+	nav ul{
+		width: 20%;		
+	}
+	
+	ul{
+		position: static;
+	}
+
+	/* main nav */
+	nav ul li a {
+		width: 50%;
+		font-size: 80%;
+		margin-right: 5px;
+		text-align: left;
+		line-height: 22px;
+		/*padding: 10px 8px;*/
+	}
+}
